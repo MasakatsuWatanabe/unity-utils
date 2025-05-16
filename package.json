@@ -1,0 +1,16 @@
+﻿{
+  "name": "com.unslow.unity-utils",
+  "version": "0.1.0",
+  "displayName": "UNSLOW Unity Utils",
+  "description": "UNSLOW製 雑多な機能集",
+  "unity": "2022.3",
+  "author": {
+    "name": "Masakatsu Watanabe",
+    "url": "https://github.com/MasakatsuWatanabe/unity-utils"
+  },
+  "keywords": [
+    "utils",
+    "misc",
+    "common"
+  ]
+}
