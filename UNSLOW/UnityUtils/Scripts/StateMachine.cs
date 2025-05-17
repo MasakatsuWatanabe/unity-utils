@@ -120,7 +120,7 @@ namespace UNSLOW.UnityUtils
         /// </summary>
         /// <param name="transitions"></param>
         /// <returns></returns>
-        public Dictionary<TEvent, TState> BuildTransitionsAny(params (TEvent, TState)[] transitions)
+        public static Dictionary<TEvent, TState> BuildTransitionsAny(params (TEvent, TState)[] transitions)
         {
             var dict = new Dictionary<TEvent, TState>();
             foreach (var (ev, state) in transitions)
