@@ -1,8 +1,8 @@
 ﻿{
   "name": "com.unslow.unity-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "UNSLOW Unity Utils",
-  "description": "UNSLOW製 雑多な機能集",
+  "description": "Collection of miscellaneous utility functions and classes for Unity development.",
   "unity": "2022.3",
   "author": {
     "name": "Masakatsu Watanabe",
