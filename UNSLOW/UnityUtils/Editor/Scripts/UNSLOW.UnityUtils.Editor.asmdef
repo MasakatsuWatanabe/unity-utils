@@ -1,6 +1,5 @@
 {
     "name": "UNSLOW.UnityUtils.Editor",
-    "rootNamespace": "UNSLOW.UnityUtils.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"

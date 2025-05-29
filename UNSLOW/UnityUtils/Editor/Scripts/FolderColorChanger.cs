@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace UNSLOW.UnityUtils.Editor.Scripts
+namespace UNSLOW.UnityUtils.Editor
 {
     /// <summary>
     /// フォルダアイコンの色を変更するエディタ拡張

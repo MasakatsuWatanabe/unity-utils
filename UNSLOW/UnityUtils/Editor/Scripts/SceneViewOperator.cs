@@ -2,7 +2,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace UNSLOW.UnityUtils.Editor.Scripts
+namespace UNSLOW.UnityUtils.Editor
 {
     /// <summary>
     /// SceneViewのBlender風操作

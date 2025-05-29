@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UNSLOW.UnityUtils.Editor.Scripts
+namespace UNSLOW.UnityUtils.Editor
 {
     /// <summary>
     ///     開発メモ用属性
