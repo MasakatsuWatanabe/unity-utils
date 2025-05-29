@@ -79,9 +79,9 @@ namespace UNSLOW.UnityUtils
             public StateBehaviour
             (   
                 TState state,
-                Action<TOwner> onEnter,
-                Action<TOwner> onUpdate,
-                Action<TOwner> onExit,
+                Action<TOwner> onEnter = null,
+                Action<TOwner> onUpdate = null,
+                Action<TOwner> onExit = null,
                 params Transition[] transitions)
             {
                 State = state;
@@ -89,11 +89,11 @@ namespace UNSLOW.UnityUtils
                 OnUpdate = onUpdate;
                 OnExit = onExit;
 
-                if (transitions == null)
-                    return;
-                
                 // 必要であれば遷移先マップを作成
-                _transitionMap = new TransitionMap(transitions);
+                _transitionMap = 
+                    transitions == null ?
+                        null :
+                        new TransitionMap(transitions);
             }
             
             /// <summary>
