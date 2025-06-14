@@ -11,6 +11,8 @@ namespace UNSLOW.UnityUtils.Editor
     [InitializeOnLoad]
     public static class FolderColorChanger
     {
+        private const float Mag = 2.5f; // 色の明るさを調整する倍率
+        
         private static readonly string[] Names =
         {
             "Editor",
@@ -28,6 +30,7 @@ namespace UNSLOW.UnityUtils.Editor
             "Settings",
             "Models",
             "UI",
+            "Effects",
             "VFX Graph",
             "Visual Effect Graph",
         };
@@ -68,13 +71,12 @@ namespace UNSLOW.UnityUtils.Editor
 
                 var color = Color.HSVToRGB(index / (float)Names.Length, 1f, 1f);
                 
-                var mag = 2.5f;
                 var level = folders.Length - i;
-                color = new Color(color.r * mag, color.g * mag, color.b * mag, color.a / level);
+                color = new Color(color.r * Mag, color.g * Mag, color.b * Mag, color.a / level);
                 return color;
             }
 
-            return new Color(0,0,0,0);
+            return Color.clear;
         }
     }
 }
