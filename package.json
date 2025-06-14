@@ -1,6 +1,6 @@
 ﻿{
   "name": "com.unslow.unity-utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "displayName": "UNSLOW Unity Utils",
   "description": "Collection of miscellaneous utility functions and classes for Unity development.",
   "unity": "2022.3",
